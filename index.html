@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>美食杰</title>
+	<link rel="stylesheet" href="CSS/meishi.css">
+	<link rel="stylesheet" href="CSS/base.css">
+	<link rel="stylesheet" href="CSS/iconfont.css">
+</head>
+<body>
+	<!-- 头部 -->
+	<div class="head clearfix">
+		<div class="head-box">
+			<div class="fl head-left"></div>
+			<div class="fl head-center">
+				<input type="text" placeholder="请输入菜谱/食材/菜单/作者" class="f"><input type="submit" value="搜索" class="r">
+			</div>
+			<ul class="fr head-right clearfix">
+				<li><a href="#" style="background: url(img/topdsflogin_icon.gif) 3px 0 no-repeat;padding-left: 34px;">QQ登录</a></li>
+				<li><a href="#" style="background: url(img/topdsflogin_icon.gif) 3px -28px no-repeat;padding-left: 34px;">微博登录</a></li>
+				<li><a href="#">注册</a></li>
+				<li><a href="login.html">登录</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- 导航 -->
+	<div class="nav">
+		<ul>
+			<li>
+				<a href="#">首页</a>
+				<span class="redline"></span>
+			</li>
+			<li class="cpdq">
+				<a href="#">菜谱大全<i class="icon iconfont icon-xiasanjiao"></i></a>
+				<div class="caipu-box ">
+					<div class="caipu-list clearfix">
+						<div>
+							<p><a href="#">家常菜谱</a></p>
+							<ul>
+								<li><a href="#">家常菜</a></li>
+								<li><a href="#">凉菜</a></li>
+								<li><a href="#">素食</a></li>
+								<li><a href="#">晚餐</a></li>
+								<li><a href="#">私房菜</a></li>
+								<li><a href="#">热菜</a></li>
+								<li><a href="#">海鲜</a></li>
+								<li><a href="#">孕妇</a></li>
+								<li><a href="#">早餐</a></li>
+								<li><a href="#">午餐</a></li>
+								<li><a href="#">甜品点心</a></li>
+								<li><a href="#">汤粥</a></li>
+								<li><a href="#">宝宝食谱-婴儿食谱</a></li>
+								<li><a href="#">糕点主食</a></li>
+								<li><a href="#">微波炉</a></li>
+							</ul>
+						</div>
+						<div class="clearfix">
+							<div class="fl">
+								<p><a href="#">中华菜系</a></p>
+								<ul>
+									<li><a href="#">川菜</a></li>
+									<li><a href="#">粤菜</a></li>
+									<li><a href="#">东北菜</a></li>
+									<li><a href="#">湘菜</a></li>
+									<li><a href="#">鲁菜</a></li>
+									<li><a href="#">浙菜</a></li>
+									<li><a href="#">湖北菜</a></li>
+									<li><a href="#">清真菜</a></li>
+								</ul>
+							</div>
+							<div class="fl" >
+								<p><a href="#">各地小吃</a></p>
+								<ul>
+									<li><a href="#">四川小吃</a></li>
+									<li><a href="#">广东小吃</a></li>
+									<li><a href="#">北京小吃</a></li>
+									<li><a href="#">陕西小吃</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="clearfix">
+							<div class="fl">
+								<p><a href="#">外国菜谱</a></p>
+								<ul>
+									<li><a href="#">韩国料理</a></li>
+									<li><a href="#">日本料理</a></li>
+									<li><a href="#">法国菜</a></li>
+									<li><a href="#">意大利餐</a></li>
+								</ul>
+							</div>
+							<div class="fl" style="margin-left: 123px;">
+								<p><a href="#">烘焙</a></p>
+								<ul>
+									<li><a href="#">蛋糕面包</a></li>
+									<li><a href="#">饼干配方</a></li>
+									<li><a href="#">甜品点心</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="clearfix">
+							<div class="fl">
+								<p><a href="#">厨房百科</a></p>
+								<ul>
+									<li><a href="#">摆盘围边</a></li>
+									<li><a href="#">烹饪技巧</a></li>
+									<li><a href="#">生活妙招</a></li>
+									<li><a href="#">美食专题</a></li>
+								</ul>
+							</div>
+							<div class="fl" style="margin-left: 110px;">
+								<p><a href="">食材百科</a></p>
+								<ul>
+									<li><a href="#">蔬菜</a></li>
+									<li><a href="#">水果</a></li>
+									<li><a href="#">谷类</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="caipu-list-img"></div>
+					</div>
+				</div>	
+			<li class="ysjk">
+				<a href="#">饮食健康<i class="icon iconfont icon-xiasanjiao"></i></a>
+				<div class="caipu-box ">
+					<div class="caipu-list clearfix">
+						<div>
+							<p><a href="#">饮食健康</a></p>
+							<ul>
+								<li><a href="#">饮食小常识</a></li>
+								<li><a href="#">美容瘦身</a></li>
+								<li><a href="#">食品安全</a></li>
+								<li><a href="#">养生妙方</a></li>
+								<li><a href="#">饮食禁忌</a></li>
+								<li><a href="#">中医保健</a></li>
+								<li><a href="#">海鲜母婴健康饮食</a></li>
+								<li><a href="#">饮食新闻</a></li>
+							</ul>
+						</div>
+						<div>
+							<p><a href="#">功能性调理</a></p>
+							<ul>
+								<li><a href="#">清热去火</a></li>
+								<li><a href="#">减肥</a></li>
+								<li><a href="#">祛痰</a></li>
+								<li><a href="#">乌发</a></li>
+								<li><a href="#">滋阴补肾</a></li>
+								<li><a href="#">健脾开胃</a></li>
+								<li><a href="#">消化不良</a></li>
+								<li><a href="#">清热解毒</a></li>
+								<li><a href="#">补阳壮阳</a></li>
+								<li><a href="#">增肥</a></li>
+							</ul>
+						</div>
+						<div class="clearfix">
+							<div class="fl" >
+								<p><a href="#">人群膳食</a></p>
+								<ul>
+									<li><a href="#">孕妇</a></li>
+									<li><a href="#">老人</a></li>
+									<li><a href="#">产妇</a></li>
+									<li><a href="#">哺乳期</a></li>
+									<li><a href="#">青少年</a></li>
+									<li><a href="#">幼儿</a></li>
+									<li><a href="#">学龄期儿童</a></li>
+								</ul>
+							</div>
+							<div class="fl">
+								<p><a href="#">疾病调理</a></p>
+								<ul>
+									<li><a href="#">糖尿病</a></li>
+									<li><a href="#">高血压</a></li>
+									<li><a href="#">痛风</a></li>
+									<li><a href="#">胃炎</a></li>
+									<li><a href="#">痔疮</a></li>
+									<li><a href="#">更年期</a></li>
+									<li><a href="#">甲状腺</a></li>
+								</ul>
+							</div>
+						</div>
+						<div>
+							<p><a href="#">脏肺调理</a></p>
+							<ul>
+								<li><a href="#">感冒</a></li>
+								<li><a href="#">补肾</a></li>
+								<li><a href="#">阳痿早泄</a></li>
+								<li><a href="#">补血</a></li>
+								<li><a href="#">便秘</a></li>
+								<li><a href="#">腹泻</a></li>
+								<li><a href="#">活血化痰</a></li>
+							</ul>
+						</div>
+						<div class="yinshi-list-img" ></div>
+					</div>
+				</div>	
+			</li>
+			<li>
+				<a href="#">美食菜单</a>
+			</li>
+			<li>
+				<a href="#">家居馆</a>
+			</li>
+			<li>
+				<a href="meishidaren.html">美食达人<img src="img/20160909164810_443.png" alt="" style="position:absolute;top:5px;"></a>
+				
+			</li>
+			<li>
+				<a href="#">家居馆</a>
+			</li>
+			<li>
+				<a href="#">手机版下载</a>
+			</li>
+		</ul>
+	</div>
+	<!-- 大图 -->
+	<div class="content-box">
+		<div class="content-box-eat">
+			<h3>今日午餐推荐：品尝来自海洋的鲜美馈赠</h3>
+			<div class="msimg">
+				<ul>
+					<li>
+						<a href="#"><img src="img/26bff6a37dd27421a8e0306a6e4899f2.jpg" alt=""></a>	
+					</li>
+					<li>
+						<a href="#"><img src="img/fff3a3aff6ba96d349042207dc581519.jpg" alt=""></a>
+						<div>
+							<h2><a href="#">炝拌莴笋</a></h2>
+							<span>香辣脆生，开胃下饭就交给它吧</span>
+							<span>
+								<a href="#">健脾开胃</a>
+								<i></i>
+							</span>
+						</div>
+					</li>
+					<li>
+						<a href="#"><img src="img/32f44dfc8e73962c73944bdd49df3478.jpg" alt=""></a>
+						<div>
+							<h2><a href="#">蜜汁蒸玉米</a></h2>
+							<span>蒸锅玉米做早餐，好吃不上火！</span>
+							<span>
+								<a href="#">补充能量</a>
+								<i></i>
+							</span>
+						</div>
+						</li>
+					<li>
+						<a href="#"><img src="img/baa9ff224eb6c2027a245dab1cc3daed.jpg" alt=""></a>
+						<div>
+							<h2><a href="#">脆皮小黄鱼</a></h2>
+							<span>酥香味美，下酒自然上上选</span>
+							<span>
+								<a href="#">增强体质</a>
+								<i></i>
+							</span>
+						</div>
+					</li>
+					<li>
+						<a href="#"><img src="img/75178166001dd6001ec511c78494135c.jpg" alt=""></a>
+						<div>
+							<h2><a href="#">蒜蓉烤花蛤</a></h2>
+							<span>花蛤烤着吃，味道一样好</span>
+							<span>
+								<a href="#">补肾养血</a>
+								<i></i>
+							</span>
+						</div>
+					</li>
+					<li>
+						<a href="#"><img src="img/2b3cdea745c7dec94ee0ddefe5444990.jpg" alt=""></a>
+						<div>
+							<h2><a href="#">宫保虾球</a></h2>
+							<span>调一碗神奇的料汁，简单小炒也能惊艳</span>
+							<span>
+								<a href="#">营养均衡</a>
+								<i></i>
+							</span>
+						</div>
+					</li>
+					<li>
+						<a href="#"><img src="img/788dd2bfaffdb4d1300561c0826fa375.jpg" alt=""></a>
+						<div>
+							<h2><a href="#">冰镇什锦水果</a></h2>
+							<span>春日天气干燥，来份什锦水果润润燥</span>
+							<span>
+								<a href="#">补肾养血</a>
+								<i></i>
+							</span>
+						</div>
+						</li>
+					<li>
+						<a href="#"><img src="img/4eecafb6a00c2d13a033d876cbb15c14.jpg" alt=""></a>
+						<div>
+							<h2><a href="#">蜂蜜小麻花</a></h2>
+							<span>香香脆脆健康少油，是不错的零食选择</span>
+							<span>
+								<a href="#">健康营养</a>
+								<i></i>
+							</span>
+						</div>
+					</li>
+					<li>
+						<a href="#"><img src="img/26bff6a37dd27421a8e0306a6e4899f2.jpg" alt=""></a>	
+					</li>
+				</ul>
+			</div>
+			<div class="msimg-zuojian" style="left:-60px;background: url(img/zzw_bg.png) 0 6px no-repeat;">
+			</div>
+			<div class="msimg-youjian" style="right: -60px;background: url(img/zzw_bg.png) -174px 6px no-repeat;">
+			</div>
+			<div class="msimg-left-box" style="left: -990px;">
+			</div>
+			<div class="msimg-right-box" style="right: -990px;">
+			</div>
+			<div class="timezhou">
+				<div class="time-nb clearfix">
+					<span style="left:-25px;">4:00</span>
+					<span style="left:168px;">10:00</span>
+					<span  style="left:365px;">14:00</span>
+					<span  style="left:564px;">16:00</span>
+					<span  style="left:762px;">21:00</span>
+					<span  style="left:965px;">4:00</span>
+				</div>
+				<div class="eat-time clearfix">
+					<p>
+						<a href="#">早餐时间</a>
+					</p>
+					<p>
+						<a href="#">午餐时间</a>
+					</p>
+					<p>
+						<a href="#">下午茶时间</a>
+					</p>
+					<p>
+						<a href="#">晚餐时间</a>
+					</p>
+					<p>
+						<a href="#">夜宵时间</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 4月踏青-->
+	<div class="4-taqing">
+		<div class="taqing-head">
+			<h3>4月，探春踏青正当时</h3>
+			<span><a href="#">更多食材 ></a></span>
+		</div>
+		<div class="taqing-content">
+			<ul class="clearfix">
+				<li>
+					<a href="#"><img src="img/7a2cdc62bbe6a13cc5a9dd064329d437.jpg" alt=""></a>
+					<span></span>
+					<div>
+						<a href="#">一年四季完美沙拉公式</a>
+						<p>甩掉肉肉等春天</p>
+					</div>
+				</li>
+				<li style="margin: 0 21px;">
+					<a href="#"><img src="img/83f97bd806c00ecd194fb6e73b155daa.jpg" alt=""></a>
+					<span></span>
+					<div>
+						<a href="#">如何避免菜刀切到手</a>
+						<p>适合厨房小白的防剁手神器</p>
+					</div>
+				</li>
+				<li>
+					<a href="#"><img src="img/8f4a0a3ac25ec2eed17e29e599d6f9df.jpg" alt=""></a>
+					<span></span>
+					<div>
+						<a href="#">如何做出完美溏心蛋</a>
+						<p>一颗蛋的成功逆袭</p>
+					</div>
+				</li>
+				<li>
+					<a href="#"><img src="img/391791a6b3c41c3cb5266eef22358bc7.jpg" alt=""></a>
+					<span></span>
+					<div>
+						<a href="#">千万种滋味却只会煮着吃</a>
+						<p>技能爆表豆腐食单</p>
+					</div>
+				</li>
+				<li style="margin: 0 21px;">
+					<a href="#"><img src="img/e3f4e74ab7ff99ceee74ea07d05745ac.jpg" alt=""></a>
+					<span></span>
+					<div>
+						<a href="#">西餐盘里的香草和香料</a>
+						<p>有它们才够法国味</p>
+					</div>
+				</li>
+				<li>
+					<a href="#"><img src="img/e7e49f17d385f487f39478c610e06cee.jpg" alt=""></a>
+					<span></span>
+					<div>
+						<a href="#">味觉盛宴 无辣不欢</a>
+						<p>寒冷冬季6道火辣美食温暖你</p>
+					</div>
+				</li>
+			</ul>
+			<div class="taqing-content-youshou" style="background: url(img/index_arrow.gif) 0 -130px no-repeat;right: -130px;"></div>
+			<div class="taqing-content-zuoshou" style="background: url(img/index_arrow.gif) 0 0 no-repeat;left: -130px;"></div>
+			<div class="line">
+				<span style="background-color:#ff5551;"sty></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+	</div>
+	<!-- 4月补肾 -->
+	<div class="4-bushen">
+		<div class="bushen-head">
+			<h3>4月，补肾调阴阳</h3>
+			<span><a href="#">更多食材 ></a><span>
+		</div>
+		<div class="bushen-box">
+			<ul class="bushen-box-gl">
+				<li><a href="#" style="background: #ff3232;color: #fff;">水果</a></li>
+				<li><a href="#">蔬菜</a></li>
+				<li><a href="#">五谷</a></li>
+				<li><a href="">生鲜</a></li>
+			</ul>
+			<ul class="bushen-img">
+				<li>
+				<a href="#"><img src="img/5983d7bb993c2eb812d4a91a4e6fb272_150x150.jpg" alt=""></a>
+				<div class="clearfix">
+					<span class="fl"></span>
+					<span class="fl">甘蔗</span>
+				<div>
+				</li>
+				<li>
+					<a href="#"><img src="img/65a0dd7fdc454bcc2246432822417dcf_150x150.jpg" alt=""></a>
+					<div class="clearfix">
+					<span class="fl"></span>
+					<span class="fl">橙</span>
+				<div>
+				</li>
+				<li>
+					<a href="#"><img src="img/a5bac715b862d69ad25fd405c7c40bbe_150x150.jpg" alt=""></a>
+					<div class="clearfix">
+					<span class="fl"></span>
+					<span class="fl">柚子</span>
+				<div>
+				</li>
+				<li>
+					<a href="#"><img src="img/868219ee828caf8639c209672066cd31_150x150.jpg" alt=""></a>
+					<div class="clearfix">
+					<span class="fl"></span>
+					<span class="fl">苹果</span>
+				<div>
+				</li>
+				<li>
+					<a href="#"><img src="img/8d143e7c57b3be917cdbe44ad06534d7_150x150.jpg" alt=""></a>
+					<div class="clearfix">
+					<span class="fl"></span>
+					<span class="fl">梨</span>
+				<div>
+				</li>
+				<li>
+					<a href="#"><img src="img/cb4ec1fb937febcab07dfba1377e98bc_150x150.jpg" alt=""></a>
+					<div class="clearfix">
+					<span class="fl"></span>
+					<span class="fl">香蕉</span>
+				<div>
+				</li>
+				<li>
+					<a href="#"><img src="img/shanzha.jpg" alt=""></a>
+					<div class="clearfix">
+					<span class="fl"></span>
+					<span class="fl">山楂</span>
+				<div>
+				</li>
+				<li>
+					<a href="#"><img src="img/juzi.jpg" alt=""></a>
+					<div class="clearfix">
+					<span class="fl"></span>
+					<span class="fl">橘子</span>
+				<div>
+				</li>
+			</ul>
+
+		</div>	
+	</div>
+	<!-- 今日菜谱 -->
+	<div class="today-caipu">
+		<div class="today-caipu-head">
+			<h3>今日最受欢迎菜谱</h3>
+			<ul>
+				<li><a href="#">最新</a></>
+				<li>|</li>
+				<li>最热</li>
+				<li><a href="#">一小时</a></li>
+				<li><a href="#">今日</a></li>
+				<li><a href="#">七天</a></li>
+				<li style="padding-right: 0"><a href="#" >更多菜谱 ></a></li>
+			</ul>	
+		</div>
+		<div class="today-caipu-content class="clearfix" ">
+			<div>
+				<img src="img/a30010_148619118252875.jpg" alt="">
+				<p>
+					<span>让王源落泪的美食：拔丝地瓜</span><br>
+					<span>109 评论  3955 人气</span><br>
+					<span>享时刻</span>
+				</p>
+			</div>
+			<div>
+				<img src="img/a2269628_146915189119589.jpg" alt="">
+				<p>
+					<span>手撕菠菜</span><br>
+					<span>60 评论  1124 人气</span><br>
+					<span>18LS28xgl零落</span>
+				</p>
+			</div>
+			<div>
+				<img src="img/a2975247_148115679262333.jpg" alt="">
+				<p>
+					<span>冰镇什锦水果</span><br>
+					<span>50 评论  1000 人气</span><br>
+					<span>甜盐蜜语</span>
+				</p>
+			</div>
+			<div style="margin-right: 0;">
+				<img src="img/a3853229_148400425181140.jpg" alt="">
+				<p>
+					<span>宫保虾球#樱花味道#</span><br>
+					<span>50 评论  3000 人气</span><br>
+					<span>Jacket猫</span>
+				</p>
+			</div>
+			<div>
+				<img src="img/a666252_148041235101877.jpg" alt="">
+				<p>
+					<span>肉末炒蒜薹</span><br>
+					<span>70 评论  1200 人气</span><br>
+					<span>清水鱼翅的厨房</span>
+				</p>
+			</div>
+			<div>
+				<img src="img/a6482563_148730532463988.jpg" alt="">
+				<p>
+					<span>冰淇淋三明治</span><br>
+					<span>70 评论  3655 人气</span><br>
+					<span>柔蓝水晶</span>
+				</p>
+			</div>
+			<div>
+				<img src="img/a2913238_149014657093572.jpg" alt="">
+				<p>
+					<span>家常地三鲜</span><br>
+					<span>60 评论  2655 人气</span><br>
+					<span>寻找桃花岛</span>
+				</p>
+			</div>
+			<div style="margin-right: 0;" class="cpdq">
+				<p>热门栏目推荐</p>
+				<ul>
+					<li>
+						<a href="#">最新菜谱</a>
+						<a href="#">家常菜</a>
+					</li>
+					<li>
+						<a href="#">凉菜</a>
+						<a href="#">素食</a>
+						<a href="#">早餐</a>
+					</li>
+					<li>
+						<a href="#">乌发</a>
+						<a href="#">高血压</a>
+						<a href="#">烘焙</a>
+					</li>
+					<li>
+						<a href="#">韩国料理</a>
+						<a href="#">川菜</a>
+						<a href="#">早餐</a>
+					</li>
+					<li>
+						<a href="#">粤菜</a>
+						<a href="#">湘菜</a>
+						<a href="#">甜点</a>
+					</li>
+					<li>
+						<a href="#" style="color:#fff;background: #ff3232;border: 1px solid #e90808;">进入菜谱大全</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="taqing-content-youshou" style="background: url(img/index_arrow.gif) 0 -130px no-repeat;right: -130px;top: 390px;">
+		</div>
+		<div class="taqing-content-zuoshou" style="background: url(img/index_arrow.gif) 0 0 no-repeat;left:-130px;top: 390px;">
+		</div>
+	</div>
+	<!-- 健康新闻 -->
+	<div class="jknews">
+		<div class="jknews-head ">
+			<h3>健康新闻</h3>
+			<span><a href="#">更多健康咨询></a></span>
+		</div>
+		<div class="jknews-content clearfix">
+			<div class="clearfix fl news">
+				<img src="img/2345a423207f6ec91011ef9b71ada0c3_150x150.jpg" alt="" class="fl">
+				<div class="fl news-1">
+					<p><a href="#">冻鱼保鲜保营养吗?</a></p>
+					<p><a href="#">哪些啤酒谣言还在飞?</a></p>
+					<p><a href="#">凉拌或油炸四季豆易中毒</a>
+					</p>
+					<a href="#">食品安全</a>
+					<i></i>
+				</div>
+			</div>
+			<div class="clearfix fl news" style="margin:0;">
+				<img src="img/41cc4e226b54d1f7d210b4c81229c70e_150x150.jpg" alt="" class="fl">
+				<div class="fl news-1">
+					<p><a href="#">南方春节食物的寓意</a></p>
+					<p><a href="#">轻食主义到底是什么呢?</a></p>
+					<p><a href="#">腊八除了吃腊八粥还吃什么？</a>
+					</p>
+					<a href="#">食品安全</a>
+					<i></i>
+				</div>
+			</div>
+			<div class="clearfix fl news">
+				<img src="img/f7dd14057250efde2da169b49f563b93_150x150.jpg" alt="" class="fl">
+				<div class="fl news-1">
+					<p><a href="#">年末应酬多，喝酒前后饮食有讲究</a></p>
+					<p><a href="#">睡觉打鼾吃什么好？</a></p>
+					<p><a href="#">办公室常备3类健康零食</a>
+					</p>
+					<a href="#">食品安全</a>
+					<i></i>
+				</div>
+			</div>
+			<div class="clearfix fl news" style="margin:0;" >
+				<img src="img/17d854c44361daafe31651f67cd32b0a_150x150 (1).jpg" alt="" class="fl">
+				<div class="fl news-1">
+					<p><a href="#">2016年食品抽检合格率96.8%</a></p>
+					<p><a href="#">【探索·发现】格鲁吉亚</a></p>
+					<p><a href="#">扫码获得的减肥代餐品靠谱吗?</a>
+					</p>
+					<a href="#">食品安全</a>
+					<i></i>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 底部 -->
+	<div class="footer">
+		<div class="footer-head clearfix">
+			<div class="fl footer-head-left">
+				<div>
+					<img src="img/dibu.jpg" alt="">
+				</div>
+				<p>
+					<span>中国，最大的菜谱库</span>
+					<span>800,000 篇</span>
+				</p>
+				<p>
+					<span>每月，用户访问数量</span>
+					<span>20,000,000 次</span>
+				</p>
+				<p>
+					<span>每年，菜谱被浏览量</span>
+					<span>36,000,000,000 次</span>
+				</p>
+				<p>
+					<span>现在，这些数字还在不断的增长着，欢迎您来一起使用美食杰</span>
+				</p>
+			</div>
+			<div class="fr clearfix footer-head-right">
+				<div class="fl">
+					<a href="#"><img src="img/weibo.jpg" alt=""></a>
+					<a href="#">
+						点击进入<br>
+						美食杰官方微博
+					</a>
+				</div>
+				<div class="fl">
+					<a href="#"><img src="img/qq.jpg" alt=""></a>
+					<a href="#">
+						点击进入<br>
+						美食杰QQ空间
+					</a>
+				</div>
+				<div class="fl">
+					<a href="#"><img src="img/erweima1.jpg" alt=""></a>
+					<a href="#">
+						扫描二维码<br>
+						添加美食杰<br>
+						为微信好友
+					</a>
+				</div>
+				<div class="fl" style="margin-right:0;">
+					<a href="#"><img src="img/erweima2.jpg" alt=""></a>
+					<a href="#">
+						扫描二维码<br>
+						下载美食杰<br>
+						手机客户端
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="footer-center clearfix">
+			<h5>友情链接</h5>
+			<div>
+				<ul class="fl">
+					<li><a href="#">美食</a></li>
+					<li><a href="#">39健康饮食</a></li>
+					<li><a href="#">红餐微杂志</a></li>
+				</ul>
+				<ul class="fl">
+					<li><a href="#">体质测试</a></li>
+					<li><a href="#">QQ下载</a></li>
+					<li><a href="#">北京搜房网</a></li>
+				</ul>
+				<ul class="fl">
+					<li><a href="#">伊特</a></li>
+					<li><a href="#">家具网</a></li>
+					<li><a href="#">东莞赶集网</a></li>
+				</ul>
+				<ul class="fl">
+					<li><a href="#">大粤网美食</a></li>
+					<li><a href="#">搜狐美食</a></li>
+					<li><a href="#">厨师网</a></li>
+				</ul>
+				<ul class="fl">
+					<li><a href="#">9酷音乐网</a></li>
+					<li><a href="#">美食天下</a></li>
+					<li><a href="#">更多友情链接</a></li>
+				</ul>
+				<ul class="fl">
+					<li><a href="#">123菜谱大全</a></li>
+					<li><a href="#">特色菜网</a></li>
+				</ul>
+				<ul class="fl">
+					<li><a href="#">爱其艺生活</a></li>
+					<li><a href="#">poco美食网</a></li>
+				</ul>
+				<ul class="fl">
+					<li><a href="#">365音乐网</a></li>
+					<li><a href="#">中华美食网</a></li>
+				</ul>
+				<ul class="fl">
+					<li><a href="#">图吧</a></li>
+					<li><a href="#">合肥公交网</a></li>
+				</ul>
+				<ul class="fl">
+					<li><a href="#">汽车论坛</a></li>
+					<li><a href="#">苹果园</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer-dibu">
+			<ul class="clearfix">
+				<li><a href="#">公司简介</a></li>
+				<li><a href="#">企业文化</a></li>
+				<li><a href="#">公司动态</a></li>
+				<li><a href="#">免费声明</a></li>
+				<li><a href="#">联系我们</a></li>
+				<li><a href="#">招贤纳士</a></li>
+				<li><a href="#">商务合作</a></li>
+				<li><a href="#">网站地图</a></li>
+				<li><a href="#">友情链接</a></li>
+				<li><a href="#" style="width:104px;">美食杰移动APP</a></li>
+			</ul>
+			<p >京ICP证150335号/京公网安备11010802009977 Copyright © 2003-2017 MEISHIJ CO.,LTD.</p>
+		</div>
+	</div>
+</body>
+</html>
